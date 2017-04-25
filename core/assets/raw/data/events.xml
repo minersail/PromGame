@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+	<area id="0">
+		<eventlistener id="0" owner="entity" entity="player" state="autodisable">
+			<trigger type="move" locX="3" locY="5" dist="1" />
+			<event type="cutscene" id="0" />
+		</eventlistener>
+		<eventlistener id="1" owner="system" system="cutscene" state="autodisable">
+			<trigger type="cutscene" />
+			<event type="quest" id="0" action="discover" />
+			<event type="quest" id="0" action="start" />
+		</eventlistener>
+		<eventlistener id="2" owner="entity" entity="player" state="autodisable">
+			<trigger type="move" locX="3" locY="0" dist="0.5" />
+			<event type="quest" id="0" action="end" />
+		</eventlistener>
+	</area>
+	<area id="1">
+		<eventlistener id="0" owner="entity" entity="player" state="autodisable">
+			<trigger type="move" locX="2" locY="7" dist="2" />
+			<event type="cutscene" id="1" />
+		</eventlistener>
+	</area>
+	<area id="2">
+		<eventlistener id="0" owner="entity" entity="player" state="autodisable">
+			<trigger type="move" locX="2" locY="6" dist=".5" />
+			<event type="cutscene" id="2" />
+			<event type="quest" id="1" action="discover" />
+		</eventlistener>
+		<eventlistener id="1" owner="system" system="cutscene" state="autodisable">
+			<trigger type="cutscene" />
+			<event type="aifollow" entity="robber1" targetChar="player" />
+			<event type="aifollow" entity="robber2" targetChar="player" />
+			<event type="quest" id="1" action="start" />
+			<event type="editxml" filename="entities.xml" elementname="entity" selectorname="name" selectorvalue="mother" attribute="enabled" value="false" area="1"/>
+			<event type="editxml" filename="entities.xml" elementname="entity" selectorname="name" selectorvalue="robert" attribute="enabled" value="false" area="1"/>
+			<event type="editxml" filename="entities.xml" elementname="entity" selectorname="name" selectorvalue="mother" attribute="enabled" value="false" area="2"/>
+			<event type="editxml" filename="entities.xml" elementname="entity" selectorname="name" selectorvalue="robert" attribute="enabled" value="false" area="2"/>
+			<event type="hitboxtype" contacttype="chaser" entity="robber1" />
+			<event type="hitboxtype" contacttype="chaser" entity="robber2" />
+			<event type="addcomponent" entity="player">
+				<chase />
+			</event>
+		</eventlistener>
+		<eventlistener id="2" owner="entity" entity="player" state="autodisable">
+			<trigger type="move" locX="20" locY="6" dist="1" />
+			<event type="quest" id="1" action="end" />
+		</eventlistener>
+	</area>
+	<area id="3">
+		<eventlistener id="0" owner="entity" entity="player" state="autodisable">
+			<trigger type="move" locX="3" locY="2" dist="1.5" />
+			<event type="cutscene" id="3" />
+		</eventlistener>
+	</area>
+	<area id="4">
+		<eventlistener id="0" owner="entity" entity="player" state="autodisable">
+			<trigger type="move" locX="19" locY="9" dist=".5" />
+			<event type="cutscene" id="4" />
+			<event type="quest" id="2" action="discover" />
+		</eventlistener>
+		<eventlistener id="1" owner="system" system="cutscene" state="autodisable">
+			<trigger type="cutscene" />
+			<event type="aifollow" entity="guard1" targetChar="player" />
+			<event type="aifollow" entity="guard2" targetChar="player" />
+			<event type="quest" id="2" action="start" />
+			<event type="hitboxtype" contacttype="chaser" entity="guard1" />
+			<event type="hitboxtype" contacttype="chaser" entity="guard2" />
+			<event type="addcomponent" entity="player">
+				<chase />
+			</event>
+		</eventlistener>
+	</area>
+	<area id="5">
+		<eventlistener id="0" owner="entity" entity="player" state="enabled">
+			<trigger type="screen" />
+			<event type="aisentry" entity="guard1">
+				<patrol x="3" y="0" />
+				<patrol x="3" y="5" />
+			</event>
+			<event type="addcomponent" entity="player">
+				<chase />
+			</event>
+			<event type="cutscene" id="5" />
+			<event type="editxml" filename="entities.xml" elementname="entity" selectorname="name" selectorvalue="guard1" attribute="enabled" value="false" area="4"/>
+			<event type="editxml" filename="entities.xml" elementname="entity" selectorname="name" selectorvalue="guard2" attribute="enabled" value="false" area="4"/>
+		</eventlistener>
+	</area>
+	<area id="6">
+	</area>
+	<area id="7">
+	</area>
+</events>

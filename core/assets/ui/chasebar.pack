@@ -1,0 +1,19 @@
+
+chasebar.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+orange
+  rotate: false
+  xy: 1, 7
+  size: 32, 4
+  orig: 32, 4
+  offset: 0, 0
+  index: -1
+grey
+  rotate: false
+  xy: 1, 1
+  size: 32, 4
+  orig: 32, 4
+  offset: 0, 0
+  index: -1

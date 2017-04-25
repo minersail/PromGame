@@ -1,0 +1,27 @@
+{
+    com.badlogic.gdx.graphics.g2d.BitmapFont: {
+        text: { file: ../fonts/knightsquest.fnt,
+                scaledSize: -1, //integer height of capital letters, default -1 for unscaled
+                markupEnabled: false,
+                flip : false}
+    },	
+	com.badlogic.gdx.graphics.Color: {
+		green: { a: 1, b: 0, g: 1, r: 0 },
+		white: { a: 1, b: 1, g: 1, r: 1 },
+		red: { a: 1, b: 0, g: 0, r: 1 },
+		black: { a: 1, b: 0, g: 0, r: 0 },
+		special: { a: 1, b: .957, g: .561, r: .259}
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+		default: { background: default-rect, font: text, fontColor: special }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+		default: { up: default-rect, down: default-rect-down, font: text, fontColor: green }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+		default: { down: default-rect-down, up: default-rect }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+		default: { background: default-window, titleFont: text }
+	}
+}

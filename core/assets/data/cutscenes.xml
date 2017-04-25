@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cutscenes>
+	<cutscene id="0">
+		<entity name="player" />
+		<action type="dialogue" />
+	</cutscene>
+	<cutscene id="1">
+		<entity name="player" />
+		<entity name="mother" />
+		<action type="dialogue" />
+		<action type="move" name="player" locX="3" locY="2" speed="5" />
+		<action type="move" name="player" locX="17" locY="2" speed="5" />
+		<action type="dialogue" />
+	</cutscene>
+	<cutscene id="2">
+		<entity name="player" />
+		<entity name="mother" />
+		<entity name="robert" />
+		<action type="dialogue" />
+		<action type="move" name="mother" locX="2" locY="3" speed="2" />
+		<action type="rotate" name="mother" direction="down" />
+		<action type="dialogue" />
+		<action type="move" name="robert" locX="2" locY="2" speed="2" />
+		<action type="rotate" name="robert" direction="down" />
+		<action type="dialogue" />
+		<action type="animate" name="robert" animation="fight" time="0.5" />
+		<action type="kill" name="mother" />
+		<action type="dialogue" />
+		<action type="move" name="robert" locX="-2" locY="2" speed="2" />
+		<action type="move" name="player" locX="2" locY="8" speed="2" />
+	</cutscene>	
+	<cutscene id="3">
+		<entity name="player" />
+		<entity name="bollin" />
+		<entity name="guard" />
+		<action type="move" name="guard" locX="4" locY="5" speed="2" />
+		<action type="rotate" name="guard" direction="up" />
+		<action type="dialogue" />
+		<action type="move" name="player" locX="4" locY="2" speed="2" />
+		<action type="rotate" name="player" direction="down" />
+		<action type="dialogue" />
+		<action type="move" name="bollin" locX="3" locY="5" speed="2" />
+		<action type="dialogue" />
+		<action type="move" name="player" locX="2" locY="4" speed="4" />
+		<action type="move" name="player" locX="3" locY="7.5" speed="4" />
+	</cutscene>
+	<cutscene id="4">
+		<entity name="player" />
+		<action type="dialogue" />
+		<action type="move" name="player" locX="18" locY="12" speed="2" />
+	</cutscene>
+	<cutscene id="5">
+		<entity name="player" />
+		<action type="dialogue" />
+	</cutscene>
+</cutscenes>

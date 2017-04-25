@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+	<item id="0" texture="stick.png" name="Stick" description="It'll probably break before your enemies do." />
+	<item id="1" texture="greenstick.png" name="Green Stick" description="A stick that was dipped in... goo?" />
+	<item id="2" texture="purplestick.png" name="Purple Stick" description="I got nothing for this stick." />
+</items>

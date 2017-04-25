@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inventories>
+	<inventory id="0">
+		<item id="0">
+			<metadata count="1" />
+		</item>
+		<item id="1">
+			<metadata count="1" />
+		</item>
+		<item id="2">
+			<metadata count="1" type="weapon" damage="0.25" knockback="1" />
+		</item>
+	</inventory>
+	<inventory id="1">
+		<item id="0">
+			<metadata count="1" buy="2" sell="5" />
+		</item>
+	</inventory>
+</inventories>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<characters>
+	<!-- Currently "name" property is not used in game -->
+	<character id="0" texture="youngjoe.png" name="Joe" />
+	<character id="1" texture="mother.png" name="Ma" />
+	<character id="2" texture="robert.png" name="Robert" />
+	<character id="3" texture="robber.png" name="Robber" />
+	<character id="4" texture="bollin.png" name="Bollin" />
+	<character id="5" texture="guard.png" name="Guard" />
+	<character id="6" texture="woman1.png" name="Woman" />
+</characters>

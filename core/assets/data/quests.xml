@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+	<quest id="0" type="move" description="Investigate the noise." locX="3" locY="0" />
+	<quest id="1" type="move" description="Escape!" locX="20" locY="6" />
+	<quest id="2" type="move" description="Find somewhere to hide." locX="0" locY="0" />
+</quests>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dialogues>
+	<!--character is for the face in images/faces, name is what appears onscreen, and text is the text (obviously) -->
+	<dialogue id="0">
+		<line character="0" name="Joe" text="Ugh..." />
+		<line character="1" name="Ma" text="*SCREAM*" />
+		<line character="0" name="Joe" text="What's that all about?" />
+		<line character="-1" name="Command" text="CUTSCENE" />
+	</dialogue>
+	<dialogue id="1">
+		<line character="1" name="Ma" text="...*sniff*..." />
+		<line character="1" name="Ma" text="Son, come here." />
+		<line character="2" name="Robert" text="Hello, Joseph." />
+		<line character="1" name="Ma" text="Your...*sniff*...y-your.." />
+		<line character="1" name="Ma" text="Your father has passed away." />
+		<line character="2" name="Robert" text="He died honorably in the battlefield." />
+		<line character="2" name="Robert" text="He died to protect you and your mother." />
+		<line character="0" name="Joe" text="NOOOOOO" />
+		<line character="-1" name="Command" text="CUTSCENE" />
+		<line character="1" name="Ma" text="Joseph! Please come back..." />
+		<line character="-1" name="Command" text="CUTSCENE" />
+	</dialogue>
+	<dialogue id="2">
+		<line character="3" name="Robber 1" text="What are you doing, son? Come back here." />
+		<line character="0" name="Joe" text="Get away from me." />
+		<line character="3" name="Robber 2" text="Oh, I don't think so." />
+		<line character="-1" name="Command" text="CUTSCENE" />
+		<line character="1" name="Ma" text="Joseph! There you are." />
+		<line character="1" name="Ma" text="Thank god you're safe." />
+		<line character="2" name="Robert" text="I wouldn't be so sure." />
+		<line character="-1" name="Command" text="CUTSCENE" />
+		<line character="1" name="Ma" text="Robert? What are you doing?" />
+		<line character="2" name="Robert" text="Joseph...your father took everything from me." />
+		<line character="2" name="Robert" text="So I killed him." />
+		<line character="2" name="Robert" text="Now it's my turn to take everything he had." />
+		<line character="1" name="Ma" text="Please, don't hurt my son." />
+		<line character="2" name="Robert" text="You won't have to see him hurt." />
+		<line character="2" name="Robert" text="I'll kill you in front of him." />
+		<line character="-1" name="Command" text="CUTSCENE" />
+		<line character="2" name="Robert" text="Finish him, too." />
+		<line character="-1" name="Command" text="CUTSCENE" />
+	</dialogue>
+	<dialogue id="3">
+		<line character="5" name="Captain Willy" text="Wake up! You can't sleep here." />
+		<line character="0" name="Joe" text="Ugh... Who are you?" />
+		<line character="-1" name="Command" text="CUTSCENE" />
+		<line character="0" name="Joe" text="You know, I was having a pretty nice dream." />
+		<line character="0" name="Joe" text="There was a gigantic hot dog and.." />
+		<line character="5" name="Captain Willy" text="I don't care about your hot dog. Where's your documentation?" />
+		<line character="-1" name="Command" text="CUTSCENE" />
+		<line character="4" name="Bollin" text="Can we arrest this street rat already?" />
+		<line character="5" name="Captain Willy" text="Is there a rush? I need to see his documentation." />
+		<line character="4" name="Bollin" text="The rush is that I need to get my baby powder." />
+		<line character="4" name="Bollin" text="I just came back from Puerto Guz." />
+		<line character="4" name="Bollin" text="You wouldn't believe what they do in the broth..." />
+		<line character="5" name="Captain Willy" text="Ok, that's enough information. Do you have your documentation?" />
+		<line character="0" name="Joe" text="No, lemme get back to you." />
+		<line character="0" name="Joe" text="I have to take a leak." />
+		<line character="-1" name="Command" text="CUTSCENE" />
+	</dialogue>
+	<dialogue id="4">
+		<line character="5" name="Guard Johnson" text="Hey! Where's the captain?" />
+		<line character="0" name="Joe" text="Can't talk, gotta pee." />
+		<line character="5" name="Guard Richard" text="What? Get back here!" />
+		<line character="-1" name="Command" text="CUTSCENE" />
+	</dialogue>
+	<dialogue id="5">
+		<line character="5" name="Captain Willy" text="Where'd he go?" />
+		<line character="5" name="Guard Richard" text="Uh, not sure." />
+		<line character="5" name="Captain Willy" text="Everyone patrol, on alert." />
+		<line character="5" name="Captain Willy" text="He's not leaving Pintel." />
+		<line character="-1" name="Command" text="CUTSCENE" />
+	</dialogue>
+</dialogues>
