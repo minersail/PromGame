@@ -38,8 +38,8 @@ public class EntityLoader
 	public void loadPlayer()
 	{
 		Entity player = new Entity();
-		AnimMapObjectComponent mapObject = new AnimMapObjectComponent(screen.getAssets().get("images/entities/youngjoe.pack", TextureAtlas.class));
-		PositionComponent position = new PositionComponent(18, 13);
+		AnimMapObjectComponent mapObject = new AnimMapObjectComponent(screen.getAssets().get("images/entities/girl.pack", TextureAtlas.class));
+		PositionComponent position = new PositionComponent(2, 4);
 		IDComponent id = new IDComponent("player");
 		InventoryComponent inventory = new InventoryComponent(0);
 		EventListenerComponent eventListener = new EventListenerComponent();

@@ -7,42 +7,7 @@
 		<line character="-1" name="Command" text="LOOP" />
 	</dialogue>
 	<dialogue id="1">
-		<line character="1" name="Ma" text="*Sobs*" />
-		<line character="-1" name="Command" text="LOOP" />
-	</dialogue>
-	<dialogue id="2">
-		<line character="2" name="Robert" text="Your father was a man of many talents." />
-		<line character="2" name="Robert" text="He will be missed." />
-		<line character="-1" name="Command" text="LOOP" />
-	</dialogue>
-	<dialogue id="3">
-		<line character="3" name="Robber 1" text="Hey, watch it." />
-		<line character="-1" name="Command" text="LOOP" />
-	</dialogue>
-	<dialogue id="4">
-		<line character="3" name="Robber 2" text="Isn't it past your bedtime?" />
-		<line character="-1" name="Command" text="LOOP" />
-	</dialogue>
-	<dialogue id="5">
-		<line character="6" name="Auna" text="Can I have some silver coins?" />
-		<line character="6" name="Auna" text="I need some money to buy lunch." />
-		<line character="-1" name="Command" text="CHOICE" choices="2" />
-		<line character="-1" name="Choice" text="Yes" />
-		<line character="0" name="Joe" text="Oops, looks like I'm broke." />
-		<line character="-1" name="Choice" text="No" />
-		<line character="0" name="Joe" text="Sorry, I don't have any money." />
-		<line character="0" name="Joe" text="Can you give me some?" />
-		<line character="-1" name="Command" text="ENDCHOICE" />
-		<line character="6" name="Auna" text="Go away, you bully." />
-		<line character="6" name="Auna" text="*sobs*" />
-		<line character="-1" name="Command" text="BREAK" />
-		<line character="6" name="Auna" text="Leave me alone." />
-		<line character="-1" name="Command" text="LOOP" />
-	</dialogue>
-	<dialogue id="6">
-		<line character="6" name="Merchant" text="Welcome to my shop!" />
-		<line character="-1" name="Command" text="INVENTORY" />
-		<line character="6" name="Merchant" text="Goodbye!" />
+		<line character="1" name="Joe" text="Hello" />
 		<line character="-1" name="Command" text="LOOP" />
 	</dialogue>
 </dialogues>

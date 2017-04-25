@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <areas>
-	<area id="0" tileset="2" d_tileset="2" />
-	<area id="1" tileset="2" d_tileset="2" />
+	<area id="0" tileset="1" d_tileset="1" />
+	<area id="1" tileset="1" d_tileset="1" />
 	<area id="2" tileset="1" d_tileset="1" />
-	<area id="3" tileset="2" d_tileset="2" />
+	<area id="3" tileset="1" d_tileset="1" />
 	<area id="4" tileset="1" d_tileset="1" />
-	<area id="5" tileset="1" d_tileset="1" />
-	<area id="6" tileset="1" d_tileset="1" />
-	<area id="7" tileset="1" d_tileset="1" />
 </areas>

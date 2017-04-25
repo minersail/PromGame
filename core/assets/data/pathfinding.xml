@@ -4,40 +4,15 @@
 		<settings />
 	</area>
 	<area id="1">
-		<settings rightCol="2" />
-		<node x="16" y="2" />
-		<node x="17" y="2" />
+		<settings />
 	</area>
 	<area id="2">
-		<settings leftCol="3" />
-		<node x="-3" y="2" />
-		<node x="-2" y="2" />
-		<node x="-1" y="2" />
+		<settings />
 	</area>
 	<area id="3">
-		<settings bottomRow="4" />
-		<node x="3" y="8" />
-		<node x="3" y="9" />
-		<node x="3" y="10" />
-		<node x="3" y="11" />
+		<settings />
 	</area>
 	<area id="4">
-		<settings />
-	</area>
-	<area id="5">
-		<settings topRow="7"/>
-		<node x="3" y="-1" />
-		<node x="3" y="-2" />
-		<node x="3" y="-3" />
-		<node x="3" y="-4" />
-		<node x="3" y="-5" />
-		<node x="3" y="-6" />
-		<node x="3" y="-7" />
-	</area>
-	<area id="6">
-		<settings />
-	</area>
-	<area id="7">
 		<settings />
 	</area>
 </pathfinding>
