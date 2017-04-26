@@ -6,10 +6,6 @@
 	</cutscene>
 	<cutscene id="1">
 		<entity name="player" />
-		<entity name="mother" />
-		<action type="dialogue" />
-		<action type="move" name="player" locX="3" locY="2" speed="5" />
-		<action type="move" name="player" locX="17" locY="2" speed="5" />
 		<action type="dialogue" />
 	</cutscene>
 </cutscenes>

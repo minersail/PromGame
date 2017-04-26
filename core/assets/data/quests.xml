@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <quests>
 	<quest id="0" type="move" description="Find Jordan" locX="-5" locY="-5" />
+	<quest id="1" type="move" description="Space to talk to people" locX="-5" locY="-5" />
+	<quest id="2" type="move" description="Escape to open inventory" locX="-5" locY="-5" />
 </quests>

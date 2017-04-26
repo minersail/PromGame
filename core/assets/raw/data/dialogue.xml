@@ -3,11 +3,69 @@
 <dialogues>
 	<!-- Dialogue 0 is reserved for NPCs that do not speak -->
 	<dialogue id="0">
-		<line character="0" name="Joe" text="I don't want to talk to that person." />
+		<line character="0" name="Julia" text="I don't want to talk to that person." />
 		<line character="-1" name="Command" text="LOOP" />
 	</dialogue>
-	<dialogue id="1">
-		<line character="1" name="Joe" text="Hello" />
+	<dialogue id="1">		
+		<line character="3" name="Mr. Sanders" text="Have you seen my favorite eraser?" />
+		<line character="0" name="Julia" text="Favorite eraser?" />
+		<line character="3" name="Mr. Sanders" text="I think that rascal Joe stole it again." />
+		<line character="-1" name="Command" text="CHOICE" choices="2" />
+		<line character="-1" name="Choice" text="Where?" />
+		<line character="0" name="Julia" text="I can help. Where is it?" />
+		<line character="3" name="Mr. Sanders" text="It's in one of the other rooms." />
+		<line character="-1" name="Choice" text="Why?" />
+		<line character="0" name="Julia" text="Why do you have a favorite eraser?" />
+		<line character="3" name="Mr. Sanders" text="That eraser has a lot of sentimental value to me." />
+		<line character="3" name="Mr. Sanders" text="In fact, I'll tell you a story." />
+		<line character="3" name="Mr. Sanders" text="Back in 1972.." />
+		<line character="0" name="Julia" text="Ooh, look at the time. Gotta go." />
+		<line character="-1" name="Command" text="ENDCHOICE" />
 		<line character="-1" name="Command" text="LOOP" />
 	</dialogue>
+	<dialogue id="2">		
+		<line character="3" name="Mr. Sanders" text="I'm not resting until I've found my eraser." />
+		<line character="-1" name="Command" text="LOOP" />
+	</dialogue/>
+	<dialogue id="3">		
+		<line character="2" name="Joe" text="Heh.. he'll never find it." />
+		<line character="0" name="Julia" text="Did you take Mr. Sanders' eraser?" />
+		<line character="2" name="Joe" text="uh." />
+		<line character="2" name="Joe" text="No" />
+		<line character="0" name="Julia" text="Huh." />
+		<line character="2" name="Joe" text="Fine, take it." />
+		<line character="-1" name="Command" text="INVENTORY" />
+		<line character="2" name="Joe" text="I'll take it again tomorrow anyways." />
+		<line character="-1" name="Command" text="LOOP" />
+	</dialogue/>
+	<dialogue id="4">		
+		<line character="0" name="Julia" text="Hey Joe." />
+		<line character="2" name="Joe" text="Hi." />
+	</dialogue/>
+	<dialogue id="5">		
+		<line character="0" name="Julia" text="Hey, do you have my prom poster?" />
+		<line character="1" name="Jordan" text="Uh..." />
+		<line character="1" name="Jordan" text="I was too lazy to get poster materials." />
+		<line character="1" name="Jordan" text="But anyhow..." />
+		<line character="1" name="Jordan" text="Would you still like to go to prom with me?" />
+		<line character="-1" name="Command" text="CHOICE" choices="2" />
+		<line character="-1" name="Choice" text="Yes" />
+		<line character="0" name="Julia" text="Yes." />
+		<line character="1" name="Jordan" text="whoo" />
+		<line character="1" name="Jordan" text="The end." />
+		<line character="-1" name="Choice" text="No" />
+		<line character="0" name="Julia" text="No." />
+		<line character="1" name="Jordan" text="Well, this is awkward." />
+		<line character="1" name="Jordan" text="What do I do now?" />
+		<line character="-1" name="Command" text="ENDCHOICE" />
+		<line character="-1" name="Command" text="LOOP" />
+	</dialogue/>
+	<dialogue id="6">		
+		<line character="3" name="Mr. Sanders" text="You've found my eraser?" />
+		<line character="0" name="Julia" text="Yes." />
+		<line character="3" name="Mr. Sanders" text="PRECIOUSSSSS" />
+		<line character="3" name="Mr. Sanders" text="Er.. Could you give it to me?" />
+		<line character="-1" name="Command" text="INVENTORY" />
+		<line character="-1" name="Command" text="LOOP" />
+	</dialogue/>
 </dialogues>

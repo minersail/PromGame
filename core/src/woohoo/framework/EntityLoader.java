@@ -44,7 +44,6 @@ public class EntityLoader
 		InventoryComponent inventory = new InventoryComponent(0);
 		EventListenerComponent eventListener = new EventListenerComponent();
 		HealthComponent life = new HealthComponent(100);
-		HealthBarComponent healthBar = new HealthBarComponent(screen.getAssets().get("ui/healthbar.pack", TextureAtlas.class));
 		HitboxComponent hitbox = new HitboxComponent(screen.getWorld(), true, ContactType.Player);
 		InputComponent input = new InputComponent();
 		MovementComponent movement = new MovementComponent(2);
@@ -56,7 +55,6 @@ public class EntityLoader
 		player.add(inventory);
 		player.add(eventListener);
 		player.add(life);
-		player.add(healthBar);
 		player.add(hitbox);
 		player.add(input);
 		player.add(movement);

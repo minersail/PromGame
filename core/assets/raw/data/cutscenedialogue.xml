@@ -2,7 +2,15 @@
 <dialogues>
 	<!--character is for the face in images/faces, name is what appears onscreen, and text is the text (obviously) -->
 	<dialogue id="0">
-		<line character="0" name="Julia" text="Hello" />
+		<line character="0" name="Julia" text="Where's Jordan?" />
+		<line character="0" name="Julia" text="He still owes me a prom poster." />
 		<line character="-1" name="Command" text="CUTSCENE" />
+	</dialogue>
+	<dialogue id="1">
+		<line character="0" name="Julia" text="Ew." />
+		<line character="0" name="Julia" text="Who designed this carpet?" />
+		<line character="-1" name="Command" text="CUTSCENE" />
+	</dialogue>
+	<dialogue id="2">
 	</dialogue>
 </dialogues>

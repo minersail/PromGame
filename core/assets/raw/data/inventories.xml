@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <inventories>
 	<inventory id="0">
+	</inventory>
+	<inventory id="1">
 		<item id="0">
 			<metadata count="1" />
 		</item>
+	</inventory>
+	<inventory id="2">
 	</inventory>
 </inventories>

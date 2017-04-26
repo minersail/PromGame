@@ -1,37 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?>
 <entities>
-	<!--template>
-		<entity>
-			<id name="" />
-			<ai />
-			<anim atlas="" />
-			<contact />
-			<dialogue id="" />
-			<eventlistener />
-			<healthbar />
-			<health max="" />
-			<hitbox collides="" type=""/>
-			<input />
-			<inventory id="" />
-			<itemdata id="">
-				<metadata />
-			</itemdata>
-			<lineofsight />
-			<mapobject texture="" />
-			<movement speed="" />
-			<opacity />
-			<position x="" y="" />
-			<weapon />
-		</entity>
-	</template-->
 	<area id="0">
+		<entity enabled="false" name="teacher">
+			<id name="teacher"/>
+			<dialogue id="2"/>
+			<ai state="stay"/>
+			<anim atlas="teacher.pack"/>
+			<hitbox collides="true" type="npc"/>
+			<movement speed="1.5"/>
+			<position x="13" y="5"/>
+		</entity>
+		<entity enabled="false" name="joe">
+			<id name="joe"/>
+			<dialogue id="4"/>
+			<ai state="stay"/>
+			<anim atlas="joe.pack"/>
+			<hitbox collides="true" type="npc"/>
+			<movement speed="1.5"/>
+			<position x="13" y="1"/>
+		</entity>
 	</area>
-	<area id="1">
-	</area>
+	<area id="1"/>
 	<area id="2">
+		<entity enabled="true" name="joe">
+			<id name="joe"/>
+			<dialogue id="3"/>
+			<ai state="random"/>
+			<anim atlas="joe.pack"/>
+			<hitbox collides="true" type="npc"/>
+			<inventory id="1"/>
+			<movement speed="1.5"/>
+			<position x="4" y="2"/>
+		</entity>
 	</area>
 	<area id="3">
+		<entity enabled="true" name="teacher">
+			<id name="teacher"/>
+			<ai state="sentry">
+				<patrol x="5" y="2"/>
+				<patrol x="5" y="4"/>
+			</ai>
+			<dialogue id="1"/>
+			<anim atlas="teacher.pack"/>
+			<hitbox collides="true" type="npc"/>
+			<movement speed="1.5"/>
+			<position x="5" y="4"/>
+		</entity>
+		<entity enabled="false" name="teacher2">
+			<id name="teacher"/>
+			<ai state="stay"/>
+			<dialogue id="6"/>
+			<anim atlas="teacher.pack"/>
+			<hitbox collides="true" type="npc"/>
+			<inventory id="2"/>
+			<movement speed="1.5"/>
+			<position x="1" y="1"/>
+		</entity>
 	</area>
 	<area id="4">
+		<entity enabled="true" name="boy">
+			<id name="boy"/>
+			<dialogue id="5"/>
+			<ai state="stay"/>
+			<anim atlas="boy.pack"/>
+			<hitbox collides="true" type="npc"/>
+			<movement speed="1.5"/>
+			<position x="3" y="3"/>
+		</entity>
 	</area>
 </entities>
